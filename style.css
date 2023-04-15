@@ -1,0 +1,494 @@
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+.home{
+    background-color: red;
+}
+
+body{
+    background-color:#1d2029;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.arrowback{
+    background-color: #d6230f;
+    border: none;
+    color: black;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 4px 2px;
+    border: 2px solid black;
+}
+
+.arrowback:hover{
+    background-color: #b01a09;
+    box-shadow: 0px 0px 20px #690500;
+    transition-duration: 0.2s;  
+    transform: scale(1.01); 
+}
+
+.arrowback:active{
+    background-color:#731102;
+    transition-duration: 0.1s;
+    transform: scale(1);  
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.1s; 
+    -webkit-transition-timing-function: ease; 
+    opacity: 1;
+}
+
+.homebtn{
+    font-size: 20px;
+    text-align: center;
+    background-position: center;
+    background-color:  #d6230f;
+    background-size: 200px 100px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.nonclickable{
+    font-size: 20px;
+    text-align: center;
+    background-position: center center;
+    background-color:#2c2e33;
+    background-size: 200px 100px;
+    padding: 40px;
+    opacity: 1;
+    border: 3px solid white;
+    max-width: 100%;
+    max-height: 100%;
+    scale: 90%;
+}
+
+.nonclickablesolid{
+    font-size: 20px;
+    text-align: center;
+    background-position: center center;
+    background-color:#393b3e;
+    background-size: 200px 100px;
+    padding: 40px;
+    opacity: 1;
+    border: 3px solid white;
+    max-width: 100%;
+    max-height: 100%;
+    scale: 90%;
+}
+
+.woodbackground{
+    font-size: 20px;
+    text-align: center;
+    background-position: center;
+    background-image: url(logbackground.png);
+    background-size: 30px;
+    background-repeat: repeat-x repeat-y;
+    padding: 20px;
+    border: 3px solid #5e5e5d;
+    scale: 90%;
+}
+
+.changelogfont{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.container{
+    display:inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    position: sticky;
+    padding: 50px;
+    transition: 0.2;
+    z-index: 10;
+    position:fixed;
+    right: 0px; bottom: 0px;
+}
+
+button, .button{
+    border: 2px solid black;
+    background-color:#636362;
+    color: white;
+    margin-right: 10px;
+}
+
+button:hover{
+    border: 2px solid white;
+    background-color:#4a4948;
+    color: white; 
+    cursor: pointer;
+    
+}
+
+button:active{
+    border: 2px solid white;
+   /* background-color: #141414;*/
+    color: white;
+    background-color:#343432;
+}
+.home:hover{
+    filter: brightness(50%);
+}
+.home:active{
+    filter: brightness(40%);
+}
+
+.wipbtn{
+    text-align: center;
+    background-image: linear-gradient(45deg, #000000 25%, #f5d000 25%, #f5d000 50%, #000000 50%, #000000 75%, #f5d000 75%, #f5d000 100%);
+    background-size: 15.00px 15.00px;
+    border: 2px solid black;
+}    
+
+.wipbtn:hover{
+    border: 2px solid white;
+}    
+ 
+.wipbtn:active{
+    background-image: linear-gradient(45deg, #000000 25%, #a88f01 25%, #a88f01 50%, #000000 50%, #000000 75%, #a88f01 75%, #a88f01 100%);
+    background-size: 15.00px 15.00px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menubtn{
+    margin: 1px;
+    min-height: 100px;
+    min-width: 100px;
+    padding: 1px;
+    scale: 95%;
+}
+/*.menubtn:hover{
+    filter: brightness(90%);
+}
+.menubtn:active{
+    filter: brightness(80%);
+}*/
+
+.button-container{
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    size: 95%;
+}
+
+.clickable{
+    font-size: 20px;
+    text-align: center;
+    background-color:  #2e9af2;
+    opacity: 0.9;
+    /*height: 100px;
+    width: 50px;*/
+    
+}
+
+.clickable:hover{
+    background-color: #1d92f2;
+    box-shadow: 0px 0px 20px #183696;
+    transition-duration: 0.2s; 
+    transform: scale(1.01);
+}
+
+.clickable:active{
+    background-color:#1b70f7;
+    transition-duration: 0.1s;  
+    transform: scale(1);  
+}
+
+.title{
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
+    font-weight: normal;
+    font-style: normal; 
+    color: #FFD700;
+    text-shadow: 3px 1px 3px #858a0b;
+}
+
+.homebtn{
+    font-size: 20px;
+    text-align: center;
+    background-position: center;
+    background-color:  #d6230f;
+    background-size: 200px 100px;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+.homebtn:hover{
+    background-color: #b01a09;
+    box-shadow: 0px 0px 20px #690500;
+    transition-duration: 0.2s;  
+    transform: scale(1.01); 
+}
+
+.homebtn:active{
+    background-color:#731102;
+    transition-duration: 0.1s;
+    transform: scale(1);  
+}
+.home:hover{
+    background: darkred;
+}
+
+.minecraftfont{
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
+    font-weight: normal;
+    font-style: normal; 
+    text-shadow: 1px 1px 1px black;
+}
+
+.smallertext{
+    font-size: 16px;
+}
+
+.skillimg{
+    
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+}
+
+figcaption{
+    font-size: 15px;
+}
+
+.version{
+    text-align: right;
+}
+
+.twitterbtn{
+    background-color: #136ae8;
+    border-color: #136ae8;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-align: center;
+    display: inline-block;
+    padding: 6px 14px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.twitterbtn:hover{
+    background-color: #1d92f2;
+    box-shadow: 0px 0px 20px #183696;
+    transition-duration: 0.2s; 
+    transform: scale(1.01);  
+}
+
+.twitterbtn:active{
+    background-color:#1b70f7;
+    transition-duration: 0.1s;  
+    transform: scale(1);  
+}
+
+.miningtitle{
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
+    font-weight: normal;
+    font-style: normal; 
+    color:#d67a02;
+    text-shadow: 3px 1px 3px #823b01;
+}
+
+.foragingtitle{
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
+    font-weight: normal;
+    font-style: normal; 
+    color:#bd1300;
+    text-shadow: 3px 1px 3px #a61403;
+}
+
+.farmingtitle{
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
+    font-weight: normal;
+    font-style: normal; 
+    color:#1e9e29;
+    text-shadow: 3px 1px 3px #0e4d03;
+}
+
+.alert{
+    position: sticky;
+    padding: 30px;
+    background-color: #cc0c0c; 
+    color: black;
+    transition: 0.2;
+    border: 2px solid black;
+    top: 0;
+    z-index: 9;
+    scale: 90%;
+}
+
+.closebtn{
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.closebtn:hover{
+    color: darkgray;
+} 
+
+/*.alert:hover{
+    box-shadow: 3px 3px 3px #690500;
+}*/
+
+.closebtn:active{
+    color: #424242
+}
+
+.locationtitle{
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
+    font-weight: normal;
+    font-style: normal; 
+    color:#9416ba;
+    text-shadow: 3px 1px 3px #55046e;
+}
+
+.miningbackground{
+    background-image: url(creepymineshaft.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+}
+
+.farmingbackground{
+    background-image: url(gardenplot.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+}
+
+.foragingbackground{
+    background-image: url(stream.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+}
+
+.locationsbackground{
+    background-image: url(town.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+}
+
+.yellow{
+    font-size: 20px;
+    text-align: center;
+    background-position: center center;
+    background-color:  #afb500;
+    background-size: 200px 100px;
+    border-radius: 25px;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+.yellow:hover{
+    font-size: 20px;
+    text-align: center;
+    background-position: center center;
+    background-color:  #838701;
+    background-size: 200px 100px;
+    border-radius: 25px;
+    padding: 20px;
+    opacity: 0.9;
+    box-shadow: 4px 4px 4px #838701;
+}
+
+.wiptitle{
+    font-family: 'MinecraftiaRegular','IBM Plex Sans','sans-serif';
+    font-weight: normal;
+    font-style: normal; 
+    color:#f0910c;
+    text-shadow: 3px 1px 3px #823b01;
+}
+.MenuIcon{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    scale: 64%;
+}
+.WIPIcon{
+    height: 100px;
+    width: 100px;
+    border: none;
+    padding: 1px;
+    align-self: center;
+    scale: 64%;
+}
+
+.blacktext{
+    color: black;
+}
+.LocationMenuIcon{
+    height: 100px;
+    width: 100px;
+    max-height: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    min-width: 100px;
+    border: white 1px solid;
+    box-shadow: 1px 2px 2px white;
+    padding: 10px;
+    opacity: 1;
+}
+.media{
+    border: 3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.ruinsbackground{
+    background-image: url(RUINS.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+}
